@@ -57,7 +57,9 @@ Machine learning models that detect cyberattacks in IoT network traffic, built o
 
 ```bash
 hf download codymlewis/TON_IoT_network --repo-type=dataset --local-dir ./data
+
 pip install pandas numpy scikit-learn lightgbm matplotlib seaborn
+
 jupyter notebook notebook.ipynb
 ```
 
